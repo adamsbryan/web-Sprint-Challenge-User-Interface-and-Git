@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -104,7 +105,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,120 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*start of code*/
+
+/*home page*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+    margin-top: auto;
+}
+
+.top-img{
+    padding-bottom: 2%;
+}
+
+.box1{
+    width: 100%;
+    height: 100px;
+    background: #00887a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 100%;
+    height: 100px;
+    background: #FFD300;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: 100px;
+    background: #00CED1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 100%;
+    height: 100px;
+    background: #ff8b3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 100%;
+    height: 100px;
+    background: #D0312D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 100%;
+    height: 100px;
+    background: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 100%;
+    height: 100px;
+    background: violet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 100%;
+    height: 100px;
+    background: pink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 100%;
+    height: 100px;
+    background: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
